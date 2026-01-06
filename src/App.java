@@ -1,12 +1,14 @@
 
 class A{
     A(){
+        super();
         System.out.println("A's Constructor");
     }
 }
 
 class B extends A {
     B(){
+        super();
         System.out.println("B's Constructor");
     }
     
@@ -14,6 +16,7 @@ class B extends A {
 
 class C extends B {
     C(){
+        super();
         System.out.println("C's Constructor");
     }
 }
