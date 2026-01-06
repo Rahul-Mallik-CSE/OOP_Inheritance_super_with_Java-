@@ -25,5 +25,6 @@ class C extends B {
 public class App {
     public static void main(String[] args) throws Exception {
         C c = new C();
+        System.out.println(c.hashCode());
     }
 }
