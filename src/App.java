@@ -12,6 +12,12 @@ class B extends A {
     
 }
 
+class C extends B {
+    C(){
+        System.out.println("C's Constructor");
+    }
+}
+
 
 public class App {
     public static void main(String[] args) throws Exception {
